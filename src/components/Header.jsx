@@ -34,16 +34,16 @@ function Header(){
             <nav>
             <ul className={'flex gap-7 '+ classe + ' text-xl font-semibold'}>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" onClick={ShowMenu}>Home</a>
                 </li>
                 <li>
-                    <a href="#about">About me</a>
+                    <a href="#about" onClick={ShowMenu}>About me</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills" onClick={ShowMenu}>Skills</a>
                 </li>
                 <li>
-                    <a href="#contacts">Contacts</a>
+                    <a href="#contacts" onClick={ShowMenu}>Contacts</a>
                 </li>
             </ul>
             <button className="btnShow" onClick={ShowMenu}></button>

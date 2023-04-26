@@ -46,7 +46,7 @@ function SectionContacts(){
                 <a className="px-5 py-3 bg-green-500 text-white rounded-full" target="_blank" href="https://api.whatsapp.com/send?phone=559999815137437&text=olá">WHATSAPP</a>
                 <a className="px-5 py-3 bg-blue-500 text-white rounded-full" target="_blank" href="https://www.linkedin.com/in/danilodevjs ">LINKEDIN</a>
             </div>
-            <form className="flex flex-col w-2/4 gap-1 mt-5"  onSubmit={handleSubmit(onSubmit)}>
+            <form className="flex flex-col w-2/4 gap-1 mt-5 max-sm:w-full"  onSubmit={handleSubmit(onSubmit)}>
                 <input type="text"
                 placeholder="SEU NOME?"
                 className="p-4"

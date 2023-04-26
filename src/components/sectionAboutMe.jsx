@@ -1,7 +1,5 @@
 import ModalVideoAbout from "./ModalVideoAbout"
 import SectionMainStyled from "./styled/SectionAboutMeStyled"
-import b from "./ModalVideoAbout"
-import { useState } from "react"
 function SectionMain(){
     function showModal(){
         document.querySelector(".how").classList.remove("hidden")
