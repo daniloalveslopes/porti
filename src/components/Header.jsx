@@ -13,7 +13,7 @@ function Header(){
         }
     }
     function hiddleHeaderColor(){
-        if(window.scrollY > 429){
+        if(window.scrollY > 229){
             document.querySelector("header").style.backgroundColor = "#fff";
             document.querySelector("header").style.zIndex = 100;
             document.querySelector(".logo").style.color = "#4831D4";
