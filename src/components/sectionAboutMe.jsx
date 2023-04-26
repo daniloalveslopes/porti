@@ -16,7 +16,7 @@ function SectionMain(){
                     <p className="txt">Meu nome é <span className="span font-semibold">Danilo Lopes</span>, sou um desenvolvedor <span className="font-semibold">Front-end</span>.</p>
                     <p className="txt">Atualmente eu estou sem emprego, e gostaria de atuar no desenvolvimento front-end <br />
                     Estudo faz dois anos, Fiz cursos como:<span className="font-semibold"> OneBitCode </span> e <span className="font-semibold"> B7web</span>, tenho um conhecimento bem sólido nas tecnologias que eu Utilizo<br />
-                    Eu faço apricações Responsivas e performaticas, sempre segindo padrões exigidos.</p>
+                    Eu faço aplicações Responsivas e performaticas, sempre seguindo padrões exigidos.</p>
                 </div>
                 <div className="buttonArea flex gap-5">
                 <button className="transition-transform hover:scale-105 dowloadBtn p-3 mb-12 bg-green-500 w-48 rounded-xl text-xl text-white">
