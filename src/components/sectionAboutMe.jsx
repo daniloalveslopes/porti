@@ -20,7 +20,7 @@ function SectionMain(){
                 <button className="transition-transform hover:scale-105 dowloadBtn p-3 mb-12 bg-green-500 w-48 rounded-xl text-xl text-white">
                     <a href="/cv.pdf" download>DOWLOAD CV</a>
                 </button>
-                <button onClick={showModal} className="transition-transform hover:scale-105 mb-12 dowloadBtn p-3 bg-green-500  w-44 rounded-xl text-xl text-white">
+                <button onClick={showModal} className="transition-transform hover:scale-105 mb-12 dowloadBtn p-3 bg-green-500  w-44 rounded-xl text-xl text-white hidden">
                     APRESENTAÇÃO VIDEO
                 </button>
                 </div>
